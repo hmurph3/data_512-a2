@@ -2,7 +2,7 @@
 Bias in English Wikipedia Assignment
 see: https://wiki.communitydata.cc/Human_Centered_Data_Science_(Fall_2018)/Assignments#A2:_Bias_in_data
 
-The goal of this analysis is to assess the bias in English Wikipedia politician articles beween countries. I analyzed the number of articles about politicians on English Wikipedia as well as the quality of the articles. The deliverables for this analysis are four tables (listed below) and a reflection on the analysis.
+The goal of this analysis is to assess the bias in English Wikipedia politician articles by country. I analyzed the number of articles about politicians on English Wikipedia as well as the quality of the articles. The deliverables for this analysis are four tables (listed below) and a reflection on the analysis.
 
 1. The top 10 countries with the **highest** proportion of politician articles to the country's population.
 2. The top 10 countries with the **lowest** proportion of politician articles to the country's population.
