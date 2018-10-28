@@ -19,3 +19,20 @@ I used **ORES** to gather the article quality prediction. Essentially, **ORES** 
 
 More information can be found here about **ORES**: https://www.mediawiki.org/wiki/ORES. 
 **ORES** documentation can be found here: https://ores.wikimedia.org/v3/#!/scoring/get_v3_scores_context_revid_model
+
+The high level steps I took for this anaysis are:
+1. Read in the source files *page_data.csv* and *WPDS_2018_data.csv*.
+2. Collect the article predictions from **ORES** using a for-loop. **ORES** only allows 50 to 100 rev_ids to be passed into the API before it runs into issues. More information on what I did is in the notebook.
+3. Strip the **ORES** query of everything but the article and the prediciton. None of the other outputs are necessary for this analysis
+4. Merge *page_data.csv* and *WPDS_2018_data.csv* using the country column.
+5. Merge that table with the **ORES** data using the rev_id column.
+6. Remove the rows that has missing data. 
+7. Calcualte the number of articles per country, the proportion of articles to the population by country, and the proportion of high quality articles by country.
+8. Create the following tables:
+  * The top 10 countries with the **highest** proportion of politician articles to the country's population.
+  * The top 10 countries with the **lowest** proportion of politician articles to the country's population.
+  * The top 10 countries with the **highetst** proportion of high quality articles.
+  * The top 10 countries with the **lowest** proportion of high quality articles.
+9. Refelct on my anaysis and any potiential biasis in the data.
+
+
