@@ -6,7 +6,7 @@ The goal of this analysis is to assess the bias in English Wikipedia politician 
 
 1. The top 10 countries with the **highest** proportion of politician articles to the country's population.
 2. The top 10 countries with the **lowest** proportion of politician articles to the country's population.
-3. The top 10 countries with the **highetst** proportion of high quality articles.
+3. The top 10 countries with the **highest** proportion of high quality articles.
 4. The top 10 countries with the **lowest** proportion of high quality articles.
 
 There are four files in this repository.
